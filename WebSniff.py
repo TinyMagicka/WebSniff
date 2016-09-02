@@ -2,9 +2,7 @@
 
 from scapy.all import *
 import re
-# import sys
 import urlparse
-# sys.getdefaultencoding()
 
 '''
 这是一个本地嗅探的脚本，可以嗅探出本地登陆的账号密码
