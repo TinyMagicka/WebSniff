@@ -42,10 +42,10 @@ def poison_target(gateway_ip,gateway_mac,target_ip,target_mac):
 if __name__=="__main__":
 
 	interface='eth0'
-	target_ip='10.0.3.112'
-	gateway_ip='10.0.3.1'
-	gateway_mac='f0:25:72:52:d7:c2'
-	target_mac='DC:85:DE:39:20:F6'
+	target_ip=''
+	gateway_ip=''
+	gateway_mac=''
+	target_mac=''
 	packet_count=1000
 	conf.iface=interface
 
